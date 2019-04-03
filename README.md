@@ -1,3 +1,3 @@
-# ![darko header](https://user-images.githubusercontent.com/45484873/55459927-5a32b100-55f9-11e9-93d4-2c103476b9ff.png)
+# ![darko header](https://user-images.githubusercontent.com/45484873/55460070-ad0c6880-55f9-11e9-92a5-39bac141110e.png)
 
 Switch Appearance of macOS theme
