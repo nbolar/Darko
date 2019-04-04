@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E2A0C5B2253BB2000164010 /* SwitchAppearance.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwitchAppearance.scpt; sourceTree = "<group>"; };
+		4E2A0C5B2253BB2000164010 /* SwitchAppearance.scpt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwitchAppearance.scpt; sourceTree = "<group>"; };
 		4E7DDDA3225396FA00CFC1D2 /* Darko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7DDDA6225396FA00CFC1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E7DDDA8225396FA00CFC1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +98,11 @@
 				TargetAttributes = {
 					4E7DDDA2225396FA00CFC1D2 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -279,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KALT4PNG4U;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Darko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = KALT4PNG4U;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Darko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
