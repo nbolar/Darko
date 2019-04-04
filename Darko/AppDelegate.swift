@@ -35,13 +35,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @objc func menuClicked(sender: NSStatusBarButton)
     {
-        initialView()
-        fadedView()
+
         guard let clickedEvent = NSApp.currentEvent else { return }
         
         if clickedEvent.type == .leftMouseUp
         {
+            initialView()
             switchAppearance()
+            fadedView()
+            
         } else if clickedEvent.type == .rightMouseUp
         {
             statusItem.menu = menu
